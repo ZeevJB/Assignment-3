@@ -1,10 +1,20 @@
 {
-  "name": "hardhat-project",
+  "name": "assignment-3-ultra",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^16.5.0"
+  },
+  "description": "",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.23.0"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "^5.3.0"
   }
 }
